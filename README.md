@@ -1,4 +1,4 @@
-# cursorbot
+# Cursorbot
 
 Kendalikan cursor mouse dan keyboard lewat terminal. Bisa dipakai di macOS, Windows, dan Linux (X11).
 
@@ -7,10 +7,9 @@ Isi folder:
 | File | Fungsi |
 |---|---|
 | `cursorbot.py` | programnya |
-| `cheatsheet.md` | daftar 125 perintah siap salin |
+| `cheatsheet.md` | perintah siap salin |
 | `README.md` | panduan ini |
 
----
 
 ## 1. Instalasi
 
@@ -24,7 +23,6 @@ python -m pip install pyautogui
 
 Kalau instalasi gagal di Mac dengan pesan `Cannot locate a working compiler`, lihat bagian [Pemecahan masalah](#7-pemecahan-masalah).
 
----
 
 ## 2. Cara menghentikan bot (baca dulu sebelum mencoba)
 
@@ -34,7 +32,6 @@ Kalau bot melakukan sesuatu yang tidak kamu inginkan:
 2. **Ctrl+C** di Terminal. Hanya bekerja kalau jendela Terminal sedang aktif, jadi tekan **Cmd+Tab** dulu untuk kembali ke Terminal.
 3. **Cmd+Q** pada Terminal. Ini cara paling pasti untuk mematikan semuanya.
 
----
 
 ## 3. Panduan pemakaian yang aman, langkah demi langkah
 
@@ -173,7 +170,6 @@ Baris kosong dan baris berawalan `#` diabaikan. Jangan mulai dengan macro panjan
 
 > **Windows/Linux:** ganti `command` dengan `ctrl` pada baris `hotkey`.
 
----
 
 ## 4. Aturan aman
 
@@ -185,7 +181,6 @@ Baris kosong dan baris berawalan `#` diabaikan. Jangan mulai dengan macro panjan
 - **Titik simpanan bisa meleset** kalau Dock atau jendela berpindah. Simpan ulang dan cek dengan `pindah`.
 - **Matikan izin Accessibility Terminal** kalau sedang tidak memakai bot.
 
----
 
 ## 5. Jenis target
 
@@ -200,7 +195,6 @@ Perintah `pindah`, `klik`, `dobel`, `klikkanan`, dan `seret` menerima target ber
 
 Kalau `klik` dijalankan tanpa target, klik terjadi di posisi cursor sekarang.
 
----
 
 ## 6. Ringkasan perintah
 
@@ -230,7 +224,6 @@ Setiap perintah punya nama Inggris dan alias Indonesia. Daftar lengkap ada di [`
 
 Bantuan untuk satu perintah: `python cursorbot.py pindah -h`.
 
----
 
 ## 7. Pemecahan masalah
 
