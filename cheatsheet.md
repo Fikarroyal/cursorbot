@@ -1,4 +1,4 @@
-# Cheat sheet cursorbot: 125 perintah
+# Cheat sheet cursorbot
 
 Ketik perintah di **mode shell** (`python cursorbot.py shell`, prompt `bot>`), atau tulis satu-satu di terminal dengan awalan `python cursorbot.py`, misalnya `python cursorbot.py click 50% 50%`.
 
