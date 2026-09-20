@@ -6,9 +6,9 @@ Isi folder:
 
 | File | Fungsi |
 |---|---|
-| `cursorbot.py` | programnya |
+| `cursorbot.py` | program |
 | `cheatsheet.md` | perintah siap salin |
-| `README.md` | panduan ini |
+| `README.md` | panduan |
 
 
 ## 1. Instalasi
